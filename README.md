@@ -1,23 +1,25 @@
-Here’s a clean, professional `README.md` file you can use for your project:
+# Accessible Design Co. Website
 
 ---
-
-# Accessible Design Co. Website
 
 This project is a responsive, accessible, and minimal website for **Accessible Design Co.**, a company dedicated to creating inclusive digital experiences for all users.
 
 ## Project Overview
 
+---
+
 - **Goal:** Build a professional and accessible web presence for a company specializing in inclusive design.
 - **Features:**
-    - Mobile-first responsive layout
-    - Semantic HTML for better accessibility
-    - Minimalistic, flat design
-    - Accessibility-focused services section
-    - Contact form with proper labeling and placeholders
-    - Integration of Font Awesome for social media icons
+  - Mobile-first responsive layout
+  - Semantic HTML for better accessibility
+  - Minimalistic, flat design
+  - Accessibility-focused services section
+  - Contact form with proper labeling and placeholders
+  - Integration of Font Awesome for social media icons
 
 ## Technologies Used
+
+---
 
 - **HTML5** — Semantic, well-structured markup
 - **CSS3** — Clean, minimal styling (see `index.css`)
@@ -26,6 +28,8 @@ This project is a responsive, accessible, and minimal website for **Accessible D
 
 ## Accessibility Features
 
+---
+
 - Semantic HTML elements like `<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`
 - `aria-label`, `aria-required` attributes for enhanced screen reader support
 - Alt text descriptions for all images
@@ -33,6 +37,8 @@ This project is a responsive, accessible, and minimal website for **Accessible D
 - Clear form labeling for inputs and selections
 
 ## Project Structure
+
+---
 
 ```
 ├── index.html
@@ -47,7 +53,15 @@ This project is a responsive, accessible, and minimal website for **Accessible D
 └── README.md
 ```
 
+## Project Demo
+
+---
+
+![Demo Animation](video1442453371.gif)
+
 ## Setup Instructions
+
+---
 
 1. Clone the repository:
    ```bash
