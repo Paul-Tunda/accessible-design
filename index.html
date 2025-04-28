@@ -13,5 +13,159 @@
     <base target="_blank" />
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <div class="logo-nav" role="navigation" aria-label="Main Navigation">
+        <picture>
+          <source
+            srcset="Stylized-A-and-D-Interlocking.png"
+            media="(max-width: 600px)"
+            style="width: 0.8rem"
+          />
+          <img
+            src="Accessible-Design-C0-2.png"
+            alt="Accessible Design Co. logo with a stylized hand forming an 'A' and 'D' and the tagline 'Inclusive Designs for All"
+            class="logo"
+          />
+        </picture>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <h1>Welcome to Accessible Design Co.</h1>
+        <p>Inclusive web experiences for everyone.</p>
+        <button><a href="#">Get Started</a></button>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About Us</h2>
+        <article>
+          <p>
+            We specialize in creating accessible, user-friendly web solutions
+            that empower all users regardless of ability.
+          </p>
+        </article>
+      </section>
+
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+          <article>
+            <a href="#"
+              ><img
+                src="an-eye-and-a-screen-simple-and-professional..png"
+                alt="Colored image using negative space to form an eye and a screen."
+                loading="lazy"
+                class="service-icon"
+            /></a>
+            <h3>Accessible Design</h3>
+            <p>
+              Ensuring visual and navigational clarity across devices and
+              abilities.
+            </p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="code-brackets-icon-programming-symbol.webp"
+                alt="Code brackets icon programming symbol software design vector generative ai illustration representing symbols ideal coding."
+                loading="lazy"
+                class="service-icon"
+            /></a>
+            <h3>Semantic Development</h3>
+            <p>Using clean, semantic code to support assistive technology.</p>
+          </article>
+          <article>
+            <a href="#"
+              ><img
+                src="code-audit-icon.jpeg"
+                alt="A clean, modern icon representing a website accessibility audit."
+                loading="lazy"
+                class="service-icon"
+            /></a>
+            <h3>Accessibility Audits</h3>
+            <p>
+              Evaluating and enhancing existing sites to meet WCAG standards.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            aria-required="true"
+            placeholder="Peter Parker"
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            aria-required="true"
+            placeholder="peter.parker@example.com"
+          />
+
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="" selected disabled>--Select a subject--</option>
+            <option value="Web Design">Web Design</option>
+            <option value="Web Development">Accessibility Audits</option>
+            <option value="App Development">App Development</option>
+            <option value="Document Accessibility">
+              Document Accessibility
+            </option>
+            <option value="Training and Consultation">
+              Training and Consultation
+            </option>
+            <option value="Third-Party Integration Reviews">
+              Third-Party Integration Reviews
+            </option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="50"
+            placeholder="Your message..."
+            maxlength="500"
+          ></textarea>
+
+          <button type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Accessible Design Co. All rights reserved.</p>
+      <nav aria-label="Social Media Links">
+        <a href="#" aria-label="Facebook"
+          ><i class="fa-brands fa-facebook fa-xl" style="color: #b197fc"></i
+        ></a>
+        <a href="#" aria-label="Twitter"
+          ><i class="fa-brands fa-x-twitter fa-xl" style="color: #b197fc"></i
+        ></a>
+        <a href="#" aria-label="LinkedIn"
+          ><i class="fa-brands fa-linkedin fa-xl" style="color: #b197fc"></i
+        ></a>
+      </nav>
+    </footer>
+  </body>
 </html>
