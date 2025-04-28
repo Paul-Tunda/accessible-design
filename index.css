@@ -1,0 +1,152 @@
+/* styles.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-image: linear-gradient(90deg, #fff7ad, #ffa9f9);
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background: #004466;
+    color: white;
+    /*background-image: url("Accessible-Design-co.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-clip: border-box;*/
+}
+
+nav>ul>li>a:hover {
+    background: lightgray;
+    padding: 10px;
+}
+
+.logo{
+    width: 18rem;
+    height: 15rem;
+    /*background: transparent;*/
+    border: none;
+    box-shadow: none;
+    /*filter: blur(5px);            !* Blurs the element *!*/
+    /*filter: brightness(0.8);      !* Adjusts brightness*/
+    /*filter: grayscale(100%);      !* Converts to grayscale *!*/
+    /*filter: contrast(120%);       !* Increases contrast *!*/
+    /*filter: opacity(80%);*/
+}
+
+.service-icon{
+    width: 18rem;
+    height: 10.125rem;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0.5rem;
+}
+.service-icon:hover{
+    transform: scale(1.12, 1.12);
+    filter: brightness(70%);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    /*background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;*/
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #003355;
+}
+
+.about, .services, .contact {
+    padding: 2rem;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 500px;
+}
+
+input, textarea, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+input::placeholder {
+    color: #5B5D5E;
+}
+
+input, option, textarea, form>button {
+    border: 2px solid #003355;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: 2px solid #0066cc;
+    outline-offset: 2px;
+}
+
+footer {
+    text-align: center;
+    /*background: #222;*/
+    /*background-image: linear-gradient(90deg, #8e52ff, #5ce1e6);*/
+    background-image: linear-gradient(90deg, #000000, #737373);
+    /*background-image: linear-gradient(90deg, #000000, #3533cd);*/
+    color: #fff;
+    padding: 1rem;
+}
+
+button:hover {
+    background-color: #B197FC;
+    color: white;
+}
+
+button>a {
+    text-decoration: none;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+    .hero {
+        padding: 3rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+    .logo-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo{
+        width: 10rem;
+    }
+}
