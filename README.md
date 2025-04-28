@@ -21,10 +21,21 @@ This project is a responsive, accessible, and minimal website for **Accessible D
 
 ---
 
-- **HTML5** — Semantic, well-structured markup
-- **CSS3** — Clean, minimal styling (see `index.css`)
+- **HTML5** — Semantic, well-structured markup (see [`index.html`](https://github.com/Paul-Tunda/accessible-design/blob/main/index.html))
+- **CSS3** — Clean, minimal styling (see [`index.css`](https://github.com/Paul-Tunda/accessible-design/blob/main/index.css))
 - **Font Awesome** — For social media and visual icons
+- **Microsoft Designer** - Image generation
+- **Canva** - Image manipulation
+- **Markdown Language** - Documentation ()
 - **Responsive Images** — Using `<picture>` element and `srcset`
+
+### Links to resources
+1. [Learn HTML 5 on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2. [Learn CSS on Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3. [Font Awesome](https://fontawesome.com/)
+4. [Microsoft Designer](https://designer.microsoft.com/)
+5. [Canva](https://www.canva.com/)
+
 
 ## Accessibility Features
 
